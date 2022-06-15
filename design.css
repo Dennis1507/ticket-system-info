@@ -1,0 +1,202 @@
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  margin-left: auto;
+  margin-right: auto;  
+  table-layout: fixed;
+  width: 100%;
+}
+
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+  text-align: center;
+  padding: 12px 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #2f2f2f;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+.styled-table	tbody tr:hover:not(:first-child) {
+  background-color: #009879;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.unread {
+  color: #cccc00;
+}
+
+h1,h2,h3,h4,h5,label {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.subh4 {
+  margin-top: 0;
+  margin-left: 1%;
+  margin-bottom: 0;
+}
+
+.toph2 {
+  margin-bottom: 0;
+}
+
+select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none;
+}
+
+html {
+  color: aliceblue;
+  background-color: #1f1f1f;
+}
+
+a {
+  color: hotpink;
+}
+
+.createform {
+  border: 3px solid #f1f1f1;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  height: 150px;
+  resize: none;
+  background-color: #1f1f1f;
+  color: #f1f1f1;
+}
+
+::placeholder {
+  color: #a1a1a1;
+}
+
+input, select {
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  resize: none;
+  background-color: #1f1f1f;
+  color: #f1f1f1;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+.container > * {
+  display: inline-block;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:disabled {
+  background-color: #ccc;
+  color: #000;
+}
+
+.createbtn {
+  height: 50px;
+  width: 15%;
+}
+
+/* Add a hover effect for buttons */
+button:enabled:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+.comment {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  height: max-content;
+  resize: none;
+  overflow-wrap: break-word;
+}
